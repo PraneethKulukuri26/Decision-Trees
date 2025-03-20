@@ -103,6 +103,53 @@ const Home = () => {
           </Grid>
         ))}
       </Grid>
+
+      <Box sx={{ mt: 4, textAlign: 'center', color: '#fff' }}>
+        <Typography variant="h6" component={motion.h6} sx={{ mb: 2 }}>
+          Contact Information
+        </Typography>
+        <Typography 
+          variant="body1" 
+          component={motion.p}
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ delay: 0.3 }}
+          sx={{ mb: 1 }}
+        >
+          📧 Email: praneethkulukuri@gmail.com
+        </Typography>
+        <Typography 
+          variant="body1"
+          component={motion.p}
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ delay: 0.4 }}
+          sx={{ mb: 1 }}
+        >
+          📱 Contact: 8074674228
+        </Typography>
+        <Typography 
+          variant="body1"
+          component={motion.p}
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ delay: 0.5 }}
+          sx={{ 
+            mb: 1,
+            '& a': {
+              color: '#fff',
+              textDecoration: 'underline',
+              '&:hover': {
+                opacity: 0.8
+              }
+            }
+          }}
+        >
+          <a href="https://github.com/PraneethKulukuri26/Decision-Trees" target="_blank" rel="noopener noreferrer">
+            🔗 GitHub Repository
+          </a>
+        </Typography>
+      </Box>
     </Container>
   );
 };

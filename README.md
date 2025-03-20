@@ -103,10 +103,6 @@ decision-trees-learning/
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
-## License 📄
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
 ## Acknowledgments 🙏
 
 - Thanks to all contributors who have helped make this educational tool better
